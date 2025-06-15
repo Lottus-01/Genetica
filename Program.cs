@@ -18,10 +18,10 @@ string NormalizaAlelo(string alelos)
 
  //Requisitos
 Console.WriteLine("Alelos da Mãe (AA, Aa ou aa): ");
-    String AleloM = NormalizaAlelo(Console.ReadLine()!).Substring(0, 2);
+    String AleloM = Console.ReadLine()!;
 
 Console.WriteLine("Alelos do Pai (AA, Aa ou aa): ");
-    String AleloP = NormalizaAlelo(Console.ReadLine()!).Substring(0, 2);
+    String AleloP = Console.ReadLine()!;
 
 Console.WriteLine("Tipo de dominância (C/I): ");
     String domi = Console.ReadLine()!;
@@ -50,3 +50,4 @@ Console.WriteLine(@$"
 
 ");
 
+//Teste
