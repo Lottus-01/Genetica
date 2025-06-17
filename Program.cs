@@ -44,12 +44,12 @@ void ImprimirTabela(string AleloM1, string AleloM2, string AleloP1, string Alelo
 }
 
 
-//Requisitos
-Console.WriteLine("Alelos da Mãe (AA, Aa ou aa): ");
+//Pelo amor de Deux faça qualquer adição de código a cima desses se não ele buga e faz a tabela errado, motivo? não sei :3
+Console.Write("Alelos da Mãe (AA, Aa ou aa): ");
 string AleloM = Console.ReadLine()!;
-Console.WriteLine("Alelos do Pai (AA, Aa ou aa): ");
+Console.Write("Alelos do Pai (AA, Aa ou aa): ");
 string AleloP = Console.ReadLine()!;
-Console.WriteLine("Tipo de dominância (C/I): ");
+Console.Write("Tipo de dominância (C/I): ");
 string domi = Console.ReadLine()!;
 
 //Separação e normalização
