@@ -26,7 +26,7 @@ Com base nas informações dos projenitores, o programa irá definir os alelos q
 ---
 ## <span style="color: Pink;">_Dowload do programa_:</span>
 
-[_Genetica-Mendeliana_](dish/Genetica-01.zip)
+[_Genetica-Mendeliana_](dish/Genetica01.zip)
 
 
 
