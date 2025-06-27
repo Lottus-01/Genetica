@@ -81,6 +81,11 @@ string AleloP_norm = NormalizaAlelo(AleloP);
     int total = Juncoes.Length;
 
 //Tabela dos fenótipos
+
+Console.ForegroundColor = ConsoleColor.Magenta;
+Console.WriteLine("Gnetica de mendeliana");
+Console.ResetColor();
+
 ImprimirTabela(AleloM1, AleloM2, AleloP1, AleloP2, Juncoes);
 
 Console.WriteLine("\n-------------------------------------");
